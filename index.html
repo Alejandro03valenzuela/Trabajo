@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Page</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            background-image: url("images/pattern.png");
+        }
+        
+        header {
+            background-color: #A593C2;
+            padding: 20px;
+            text-align: left;
+            color: white;
+        }
+        
+        header img {
+            max-width: 100px;
+            vertical-align: middle;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #A593C2;
+            margin: 20px 0;
+        }
+        
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .left-column {
+            width: 30%;
+            text-align: center;
+        }
+        
+        .right-column {
+            width: 65%;
+            margin-left: 5%;
+        }
+        
+        .logo-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .main-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .contact-form {
+            margin-top: 20px;
+        }
+        
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form input[type="submit"] {
+            display: block;
+            width: 80%;
+            padding: 10px;
+            margin: 10px auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        footer {
+            text-align: left;
+            padding: 20px;
+            background-color: #a64d79;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/pie.png" alt="Bethany's Pie Shop">
+    </header>
+
+    <main>
+        <h1>Bienvenido a la tienda de pasteles de Bethany</h1>
+        <div class="content-wrapper">
+            <div class="left-column">
+                <img src="images/bethanylogo.png" alt="Logo" class="logo-image">
+                <article class="contact-form">
+                    <h2>Busque nuestros pies</h2>
+                        <input type="text" name="pastel" placeholder="Search en la tienda" required>
+                        <input type="submit" value="Buscar">
+                    </form>
+                </article>
+            </div>
+            <div class="right-column">
+                <img src="images/bethany-fullsize.jpg" alt="Bethany in Shop" class="main-image">
+                <article class="text-content">
+                   <a href="Prueba4.5.html">Link de otra pagina</a>
+                    <h2>Nuestra historia</h2>
+                    <p>Durante muchos años, <strong>Bethany</strong> Ha estado horneando los pasteles más deliciosos en su casa. En 2013 abrimos nuestra primera tienda en Bruselas (Bélgica) en una pequeña y acogedora calle cerca del Gran Mercado.</p>
+                    <p>Personas de todo el mundo se enamoraron de los pasteles suaves, las deliciosas tartas de queso, las picantes tartas de manzana... La tienda se convirtió en un éxito en poco tiempo.</p>
+                    <h2>Nuestras promociones semanales</h2>
+                    <p><strong>Cheese Cake</strong></p>
+                    <p>$12.95 - Sirve 4</p>
+                    <img src="images/products/cheesecake.jpg" width="400">
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Nuestra direccion:</p>
+        <p>Av La Fontana S/N - La Molina</p>
+        <p>© 2024 Fundamentos de diseño web - All Rights reserved</p>
+    </footer>
+</body>
+</html>
